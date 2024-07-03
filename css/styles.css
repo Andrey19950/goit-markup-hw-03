@@ -127,8 +127,7 @@ a {
 }
 
 .main-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0 188px;
 }
 
 .main-title {
@@ -143,10 +142,11 @@ a {
 }
 .main-button {
   display: block;
-  width: auto;
+  min-width: 169px;
   height: 56px;
   margin: 0 auto;
   border-radius: 4px;
+  border: none;
   padding: 16px 32px;
   color: #fff;
   font-weight: 500;
@@ -161,8 +161,20 @@ a {
 }
 
 .feat-container {
-  padding-top: 117px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px;
+}
+
+.features-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feature-list {
@@ -194,8 +206,7 @@ a {
 }
 .team-container {
   background: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px;
 }
 .team-title {
   margin: 0 auto 72px;
@@ -217,15 +228,12 @@ a {
 .team-items {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
-.team-images {
-  margin-bottom: 32px;
-}
-
-.images-desc {
+.team-cont {
   text-align: center;
-  margin: 0 16px 32px;
+  padding: 32px 0;
 }
 .team-name {
   margin-bottom: 8px;
@@ -244,8 +252,8 @@ a {
 }
 
 .port-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
+  border: 1px solid #e7e9fc;
 }
 
 .port-title {
@@ -268,15 +276,12 @@ a {
   width: calc((100% - 48px) / 3);
 }
 
-.port-image {
-  margin-bottom: 32px;
-}
-
 .port-item {
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
 }
 
 .port-name {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -296,7 +301,7 @@ a {
 }
 
 .foot-container {
-  padding: 116px 0 84px;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
 }
@@ -311,8 +316,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .foot-logo-name {
   color: #f4f4fd;
