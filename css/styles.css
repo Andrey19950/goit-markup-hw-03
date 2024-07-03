@@ -124,9 +124,6 @@ a {
 
 .main {
   background: #2e2f42;
-}
-
-.main-container {
   padding: 188px 0 188px;
 }
 
@@ -160,8 +157,8 @@ a {
   background-color: #404bbf;
 }
 
-.feat-container {
-  padding: 120px 0 120px;
+.feature {
+  padding: 120px 0;
 }
 
 .features-title {
@@ -204,10 +201,12 @@ a {
   color: #434455;
   max-width: 264px;
 }
-.team-container {
+
+.team {
   background: #f4f4fd;
   padding: 120px 0 120px;
 }
+
 .team-title {
   margin: 0 auto 72px;
   font-weight: 700;
@@ -251,8 +250,11 @@ a {
   color: #434455;
 }
 
-.port-container {
+.portfolio {
   padding: 120px 0;
+}
+
+.port-container {
   border: 1px solid #e7e9fc;
 }
 
@@ -300,8 +302,11 @@ a {
   background: #2e2f42;
 }
 
-.foot-container {
+.footer {
   padding: 100px 0;
+}
+
+.foot-container {
   display: flex;
   flex-direction: column;
 }
