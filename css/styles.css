@@ -168,7 +168,7 @@ a {
 .feature-list {
   display: flex;
   align-items: center;
-  row-gap: 24px;
+  gap: 24px;
 }
 .feature-list-items {
   width: calc((100% - 72px) / 4);
@@ -184,6 +184,7 @@ a {
 }
 
 .feature-text {
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
